@@ -1,0 +1,22 @@
+{
+  "name": "kanbas-node-server-app-su1-2024",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web server for the Kanbas application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AveragelyIntelligentBird/kanbas-node-server-app-su1-2024.git"
+  },
+  "author": "Anfisa Bogdanenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AveragelyIntelligentBird/kanbas-node-server-app-su1-2024/issues"
+  },
+  "homepage": "https://github.com/AveragelyIntelligentBird/kanbas-node-server-app-su1-2024#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
