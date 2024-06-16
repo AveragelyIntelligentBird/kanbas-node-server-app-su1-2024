@@ -1,10 +1,10 @@
 import mongoose from "mongoose";
 
-const moduleSchema = new mongoose.Schema({
-        name: {type: String, required: true},
-        course: {type: String, required: true},
+const moduleSchemaNU = new mongoose.Schema({
+        name: String,
+        course: String,
         description: String,
     },
     {collection: "modules"}
 );
-export default moduleSchema;
+export default moduleSchemaNU;

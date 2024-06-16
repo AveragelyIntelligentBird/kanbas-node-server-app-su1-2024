@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 
-const courseSchema = new mongoose.Schema({
-        number: {type: String, required: true, unique: true},
-        name: {type: String, required: true},
+const courseSchemaNU = new mongoose.Schema({
+        name: String,
+        number: String,
         image: String,
         startDate: Date,
         endDate: Date,
@@ -12,4 +12,4 @@ const courseSchema = new mongoose.Schema({
     },
     {collection: "courses"}
 );
-export default courseSchema;
+export default courseSchemaNU;
