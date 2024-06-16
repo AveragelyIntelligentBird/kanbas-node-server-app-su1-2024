@@ -3,6 +3,7 @@ export default function Hello(app) {
     res.send('Life is good!')
   })
   app.get('/', (req, res) => {
+    console.log('Welcome to Full Stack Development!')
     res.send('Welcome to Full Stack Development!')
   })
 }
